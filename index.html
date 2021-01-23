@@ -1,1 +1,230 @@
-# productLanding.github.io
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <style>
+        *{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+#header{
+  background:#F6376D;
+  padding:20px;
+  margin:10px;
+  position:sticky;
+  top:0px;
+}
+#header-img{
+  width:15%;
+  float:right;
+}
+.title{
+  text-align:center;
+  font-size:40px;
+  background:black;
+  color:white;
+  margin:0px 10px;
+  padding:30px;
+}
+#title{
+  font-family: 'Metal Mania', cursive;
+}
+#video{
+  max-width:100%;
+  width:1000px;
+  height:700px;
+  padding:50px;
+}
+p{
+  font-size:20px;
+}
+.nav-link{
+  text-decoration:none;
+  color:black;
+  font-size:20px;
+  padding:0px 10px;
+}
+#nav-bar  a:hover{
+  font-size:24px;
+}
+.container{
+  background:#263145;
+  padding:20px;
+  margin:40px 50px;
+  text-align:center;
+}
+.model{
+   background:#687C94;
+  width:400px;
+  padding:20px;
+  margin:20px 30px;
+  box-shadow:5px 7px 10px;
+}
+#model-title{
+  font-size:30px;
+  color:white;
+  padding:5px;
+  margin:0px 200px;
+  box-shadow:2px 2px 10px;
+}
+.row{
+  display:flex;
+  justify-content:center;
+}
+.model img{
+  width:350px;
+ padding:10px;
+  max-width:100%;
+}
+#form{
+  background:#F6376D;
+  margin:2% 25% 2% 25%;
+  padding:20px;
+  box-shadow:5px 5px 10px;
+}
+#email{
+  margin:15px;
+  border:none;
+  font-size:20px;
+  padding:5px 0px 5px 1px;
+  width:50%;
+  background:#FCBACE;
+}
+textarea{
+  margin:15px;
+  border:none;
+  font-size:20px;
+  padding:5px 0px 5px 1px;
+  width:70%;
+  background:#FCBACE;
+  height:200px;
+}
+#submit{
+  border:none;
+  font-size:20px;
+  margin:10px 0px;
+  padding:15px 30px;
+  background:#263145;
+  color:#DEEAF8;
+}
+input[type=submit]:hover{
+  background-color:white;
+  cursor:pointer;
+  animation:submit;
+}
+em{
+  font-size:40px;
+}
+#form p{
+  color:white;
+  font-size:20px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@media only screen and (max-width:700px){
+  #form{
+    width:100%;
+    height:auto;
+    margin:auto;
+  }
+  .container{
+    width:100%;
+    height:auto;
+    margin:auto;
+  }
+  #model-title{
+    width:100%;
+    height:auto;
+    margin:auto;
+  }
+  #video{
+    margin:auto;
+    height:auto;
+  }
+  .row{
+    flex-direction:column;
+  }
+  .model p{
+    display:none;
+  }
+}
+@media only screen and (max-width:500px){
+  .row{
+    flex-direction:row;
+  }
+}
+      </style>
+  </head>
+  <body>
+    <main>
+    <header id="header">
+      <img id="header-img" src="https://i.pinimg.com/236x/04/26/20/042620590c6856d9d4f80d75bf27bb91--logo-ideas-a-dress.jpg">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#title">About Us</a>
+        <a class="nav-link" href="#video">Making</a>
+         <a class="nav-link" href="#model-title">Designs</a>
+         <a class="nav-link" href="#form">Connect</a>
+      </nav>
+    </header><div class="title">Welcome to<span id="title"> Practical Princess </span><i class="fa fa-star-o" aria-hidden="true"></i><br><br><p>In Practical Princess we try to give you a whole princess vibe .Every body is unique and special, and with that in mind we make sure to take precise measurements of each client to make sure the dress fits you perfectly.If you have a specific design in mind we will be happy to help make your vision come true or you could bring an image of the design you like and we will make it to exact specifications.</></div>
+      <div class="container">
+        <iframe id="video"src="https://www.youtube.com/embed/5hOHcbanr8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    <div class="container">
+      <p id="model-title">Types of Dresses:</p>
+      <div class="row">
+      <div class="model">
+        <img src="https://ae01.alicdn.com/kf/HTB1QW8.SpXXXXXIXpXXq6xXFXXXA/New-Design-Long-Wedding-Dress-2018-Sweetheart-Neck-Spaghetti-Strap-Chapel-Train-A-Line-Appliques-Tulle.jpg" alt="A-Line Dress">
+        <h4>A-Line</h4>
+            <p>An A-line skirt is a skirt that is fitted at the hips and gradually widens towards the hem, giving the impression of the shape of a capital letter A. The term is also used to describe dresses and coats with a similar shape.</p>
+      </div>
+      <div class="model"> <img src="https://ae01.alicdn.com/kf/HTB1GAHMSFXXXXcfXpXXq6xXFXXXt/ADLN-2018-Cheap-Plus-Size-Wedding-Dresses-V-neck-Sleeveless-Empire-Waist-Chiffon-Bridal-Gown-Robe.jpg" alt="Empire-Waist Dress">
+        <h4>Empire Waist</h4>
+          <p>An empire waist dress is one that has a fitted bodice, and waistline is placed above the natural waist, sometimes right below the bust. The skirt is typically long with a loose fit that skims the body and elongates the figure.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="model">
+          <img src="https://simages.tbdress.com/Upload/Image/2017/17/watermark/840-1120/0a2ef8ee-bf24-4acb-b3a3-10b1488d5678.jpg" alt="Ball-Gown Dress">
+          <h4>Ball Gown</h4>
+        <p>A ball gown is floor-length dress to be worn to formal, black tie and white tie occasions. It is the most formal (and fancy!) type of dress, and traditionally has a full skirt and fitted bodice.</p>
+        </div>
+        <div class="model">
+          <img src="https://cdn.shopify.com/s/files/1/1552/5653/products/Sexy_Spaghetti_Straps_Mermaid_Lace_Appliques_White_Wedding_Dresses_Long_Prom_Dresses_White_Lace_Formal_Dresses_Evening_Dresses_1024x1024.jpg?v=1555335857" alt="Mermaid Dress">
+          <h4>Mermaid</h4>
+          <p>A mermaid wedding dress is characterized by its fitted style, which hugs close to the bride’s body. Unlike A-line or ball gown wedding dresses, this style doesn’t flare out at the waist. Rather, it flares at or below the knee, creating a mermaid like “tail” that’s utterly elegant.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="model">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.O_Z_AX9D4lbnPS3-Fv7NIgHaKU&pid=Api&P=0&w=300&h=300" alt="Trumpet Dress">
+          <h4>Trumpet</h4>
+          <p> A trumpet wedding dress fits similar to a mermaid gown. It hugs the body in all the right places and gradually flares outward. The key difference between mermaid and trumpet wedding gowns is where the flare begins, which in the case of the trumpet style is mid-thigh.</p>
+        </div>
+        <div class="model">
+          <img src="https://cdn.essensedesigns.com/wp-content/uploads/2016/06/D2136.1464816409.0.jpg"alt="Sheath Dress">
+          <h4>Sheath</h4>
+          <p>Sheath wedding dresses offer long, straight lines that follow the natural shape of a woman’s body. Many sheath designs hug the hips, showing off a bride’s curves and highlighting her feminine charms</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p><em>W</em>hy not reach out to us now and get a quote for your dream dress? Please use the form below and we will get back to you ASAP.</p>
+        <input type="email" id="email" name="email" placeholder="Enter your email-Id" required><br>
+        <textarea id="textarea" placeholder="Tell us about yourself..."></textarea><br>
+       <input type="submit" id="submit"value="Submit">
+      </form>
+    </div>
+        </div>
+      </main>
+  </body>
+</html>
+
